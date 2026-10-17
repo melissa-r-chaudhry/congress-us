@@ -1,5 +1,13 @@
 # Congress.US
 
+**What it is:** A full-stack congressional accountability platform scoring 535 members of Congress on funding sources and voting record.
+**Why it existed:** Built as a modern, extended successor to an existing public-interest scoring site, from a one-line mission brief to a scored, publicly-methodology'd platform.
+**What I owned:** Schema design, the data-sync pipeline against two external government APIs, the scoring methodology, and the full application.
+**Stack:** Next.js (App Router), TypeScript, PostgreSQL, Node sync scripts.
+**Production status:** Live preview, verified end-to-end against real data; public domain cutover is a deliberate decision pending a go-live call, not a technical blocker.
+
+---
+
 A congressional accountability platform scoring members of Congress on two axes: **who funds them**, and **whether they act with the public or with donors**.
 
 Tagline: *"Of, By, and For — Congress for the People."*
